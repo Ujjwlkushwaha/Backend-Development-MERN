@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.send("<h1>Learning RESTful API</h1>");
 });
 
-// ✅ REST API ----------------------------------------------
+// ✅ REST API -----------------------------------------------
 app.get("/users", (req, res) => {
   // ✅ according to restful API practice -> this type of route return HTML document
   const users = `
