@@ -1,0 +1,23 @@
+✅ REST-API => ( work with JSON response )
+
+
+GET /users -> List all users-> Jab hm aese route likhte hai to hm HTML document return krte hai joki kewal browser samajh sakta hai
+
+GET /api/users -> List all users => this type of route always throw JSON 
+
+------------------------------------------------------------------------------------------------
+⭐ note =>  
+    { Jab bhi hme JSON response bhjna ho to route /api se design krna ak achhi practice mani jati hai }
+
+------------------------------------------------------------------------------------------------
+
+⭐  kyuki hm JSON response ke sath kaam krne wale hai to hme saare routes /api se design krne pdege
+
+        GET /api/users/:id -> Get the perticuler users
+
+        POST /api/users -> Create a new user
+
+        PATCH /api/users/:id -> Update the perticuler user data
+
+        DELETE /api/users/:id -> Delete the perticuler user data
+
